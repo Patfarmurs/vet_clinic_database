@@ -101,45 +101,28 @@ SELECT species, MIN(weight_kg), MAX(weight_kg) FROM animals GROUP BY species;
 SELECT species, AVG(escape_attempts) FROM animals WHERE date_of_birth BETWEEN '1990-01-01' AND '2000-12-31' GROUP BY species;
 
 /* Query multiple tables */
-SELECT animals.name, owners.full_name 
-FROM animals 
-JOIN owners 
-ON animals.owner_id = owners.id 
-WHERE owners.full_name = 'Melody';
+SELECT name FROM animals JOIN owners ON owner_id =owner_id
+WHERE fullname = 'Melody Pond';
 
-SELECT animals.name AS animal_name, species.name AS species_type 
-FROM animals 
-JOIN species 
-ON animals.species_id = species.id 
-WHERE species.name = 'Pokemon';
+SELECT * FROM animals JOIN species s ON species_id = s.id
+WHERE s.name = 'Pokemon';
 
-SELECT owners.full_name, animals.name 
-FROM owners 
-LEFT JOIN animals 
-ON animals.owner_id = owners.id;
+SELECT fullname AS owner, name AS pet FROM animals a
+FULL JOIN owners o ON o.id = a.owner_id;
 
-SELECT species.name, count(animals) 
-FROM animals 
-JOIN species 
-ON animals.species_id = species.id 
-GROUP BY species.name;
+SELECT COUNT(a.name), s.name FROM animals a JOIN species s ON species_id = s.id
+GROUP BY s.name;
 
-SELECT animals.name 
-FROM animals 
-JOIN owners 
-ON animals.owner_id = owners.id 
-WHERE owners.full_name = 'Jennifer Orwell';
+SELECT a.name FROM animals a 
+LEFT JOIN owners o ON o.id = a.owner_id
+LEFT JOIN species s ON s.id = a.species_id
+WHERE o.fullname = 'Jennifer' AND s.name = 'Digimon';
 
-SELECT species.name, count(animals) 
-FROM animals 
-JOIN species 
-ON animals.species_id = species.id 
-GROUP BY species.name;
+SELECT * FROM animals a
+FULL JOIN owners o ON o.id = owner_id
+WHERE o.fullname = 'Dean Winchester' AND escape_attempts = 0;
 
-SELECT owners.full_name, COUNT(animals.name) AS total_animals 
-FROM owners 
-JOIN animals 
-ON animals.owner_id = owners.id 
-GROUP BY owners.full_name 
-ORDER BY total_animals DESC 
-LIMIT 1;
+SELECT COUNT(*) as count, fullname FROM animals a
+INNER JOIN owners o ON a.owner_id = o.id
+GROUP BY o.fullname
+ORDER BY count DESC;
