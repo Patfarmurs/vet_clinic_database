@@ -12,8 +12,6 @@
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
-  - [👥 Authors ](#-authors-)
-    - [👤 Salwa Ballouti:](#-salwa-ballouti)
 - [🔭 Future Features:](#-future-features)
 - [🤝 Contributing:](#-contributing)
   - [⭐️ Show your support ](#️-show-your-support-)
@@ -80,7 +78,7 @@ In order to run this project you need:
 - Installed PostgreSQL RDBMS
 - Create a local directory that you want to clone the repository.
 - Open the command prompt in the created directory.
-- On the terminal run this command git clone https://github.com/Patfarmurs/vet_clinic.git
+- On the terminal run this command git clone https://github.com/Patfarmurs/vet_clinic_database.git
 
 
 
