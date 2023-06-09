@@ -11,9 +11,11 @@
   - [🚀 Live Demo ](#-live-demo-)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
-    - [Setup](#setup)
+    - [Setup](#s
+- [🔭 Future Features:](#-future-features)
+=======
   - [👥 Authors ](#-authors-)
-    - [🔭 Future Features:](#-future-features)
+    - [🔭 Future Features:](#-future-f
 - [🤝 Contributing:](#-contributing)
   - [⭐️ Show your support ](#️-show-your-support-)
   - [🙏 Acknowledgments ](#-acknowledgments-)
