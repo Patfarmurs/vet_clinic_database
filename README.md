@@ -11,8 +11,11 @@
   - [🚀 Live Demo ](#-live-demo-)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
-    - [Setup](#setup)
+    - [Setup](#s
 - [🔭 Future Features:](#-future-features)
+=======
+  - [👥 Authors ](#-authors-)
+    - [🔭 Future Features:](#-future-f
 - [🤝 Contributing:](#-contributing)
   - [⭐️ Show your support ](#️-show-your-support-)
   - [🙏 Acknowledgments ](#-acknowledgments-)
@@ -105,9 +108,6 @@ git clone https://github.com/Patfarmurs/vet_clinic.git
 - GitHub: [@Patrick mukula](https://github.com/Patfarmurs)
 - Twitter: [@Patrick mukula](https://twitter.com/MukulayengeP)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/Patrick-Mukula)
-
-### 👤 **Samson**:
-- GitHub: [@Samson](https://github.com/SamTush)
 
 # 🔭 Future Features:
 - Add more query to manage the database.
