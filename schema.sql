@@ -72,3 +72,19 @@ CREATE TABLE relationships (
 ALTER TABLE animals
 DROP COLUMN species_id,
 DROP COLUMN owner_id;
+
+  /* Perfomence audit */
+  CREATE INDEX idx_animal_id ON visits (animal_id);
+
+SET work_mem = '128MB';
+
+ANALYZE visits;
+
+CREATE INDEX idx_email ON owners (email);
+
+ANALYZE owners;
+
+CREATE INDEX idx_vet ON visits (vet_id);
+
+ANALYZE visits;
+
