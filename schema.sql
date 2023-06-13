@@ -68,3 +68,7 @@ CREATE TABLE relationships (
     species_id integer,
     owner_id integer
 );
+
+ALTER TABLE animals
+DROP COLUMN species_id,
+DROP COLUMN owner_id;
