@@ -11,8 +11,11 @@
   - [🚀 Live Demo ](#-live-demo-)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
-    - [Setup](#setup)
+    - [Setup](#s
 - [🔭 Future Features:](#-future-features)
+=======
+  - [👥 Authors ](#-authors-)
+    - [🔭 Future Features:](#-future-f
 - [🤝 Contributing:](#-contributing)
   - [⭐️ Show your support ](#️-show-your-support-)
   - [🙏 Acknowledgments ](#-acknowledgments-)
@@ -104,6 +107,8 @@ sh
 
 ### 👤 **Drissa**:
 - GitHub: [@touredri](https://github.com/touredri)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 # 🔭 Future Features:
 - Add more query to manage the database.
