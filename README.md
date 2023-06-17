@@ -11,8 +11,11 @@
   - [🚀 Live Demo ](#-live-demo-)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
-    - [Setup](#setup)
+    - [Setup](#s
 - [🔭 Future Features:](#-future-features)
+=======
+  - [👥 Authors ](#-authors-)
+    - [🔭 Future Features:](#-future-f
 - [🤝 Contributing:](#-contributing)
   - [⭐️ Show your support ](#️-show-your-support-)
   - [🙏 Acknowledgments ](#-acknowledgments-)
@@ -64,6 +67,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
+Not deployed for now
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -78,21 +82,16 @@ In order to run this project you need:
 - Installed PostgreSQL RDBMS
 - Create a local directory that you want to clone the repository.
 - Open the command prompt in the created directory.
-- On the terminal run this command git clone https://github.com/Patfarmurs/vet_clinic_database.git
-
-
-
 
 ### Setup
-
+On the terminal run this command
 Clone this repository to your desired folder:
 
-```sh 
+sh 
 git clone https://github.com/Patfarmurs/vet_clinic.git
-  ```
-  ```sh 
+
+sh 
   cd vet_clinic_database
-  ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -106,8 +105,10 @@ git clone https://github.com/Patfarmurs/vet_clinic.git
 - Twitter: [@Patrick mukula](https://twitter.com/MukulayengeP)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/Patrick-Mukula)
 
-### 👤 **Samson**:
-- GitHub: [@Samson](https://github.com/SamTush)
+### 👤 **Drissa**:
+- GitHub: [@touredri](https://github.com/touredri)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 # 🔭 Future Features:
 - Add more query to manage the database.
@@ -117,6 +118,7 @@ git clone https://github.com/Patfarmurs/vet_clinic.git
 
 # 🤝 Contributing:
 Contributions, issues, and feature requests are welcome!
+https://github.com/Patfarmurs/vet_clinic.git/issues
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

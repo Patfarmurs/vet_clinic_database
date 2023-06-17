@@ -124,3 +124,11 @@ GROUP BY animal_id, vet_id, date_visited
 HAVING COUNT(*) > 1
 );
 
+DELETE FROM visits
+WHERE CTID in (
+SELECT MAX(CTID)
+FROM owners
+GROUP BY full_name, email
+HAVING COUNT(*) > 1
+);
+
